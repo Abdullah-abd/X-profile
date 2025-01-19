@@ -1,0 +1,40 @@
+.filterPills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .pill {
+    display: flex;
+    align-items: center;
+    padding: 5px 12px;
+    background-color: #e0f7fa;
+    border: 1px solid #00bcd4;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #00796b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .pill:hover {
+    background-color: #b2ebf2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #00796b;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+  }
+  
+  .closeButton:hover {
+    color: #004d40;
+  }
+  

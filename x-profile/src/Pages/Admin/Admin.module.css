@@ -1,0 +1,46 @@
+.adminPortal {
+    width: 100%;
+  }
+  
+  .addButton {
+    background-color: #00baff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .addButton:hover {
+    background-color: #008ecc;
+  }
+  
+  .profileList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    margin-bottom: 10px;
+  }
+  
+  .addProfile{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+  }
+  .addProfile input{
+    height: 50px;
+  }
+
+  
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    .profileList {
+        grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .profileList {
+        grid-template-columns: 1fr; /* Single-column layout for smaller screens */
+    }
+}

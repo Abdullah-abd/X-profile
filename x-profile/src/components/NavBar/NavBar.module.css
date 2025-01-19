@@ -1,0 +1,31 @@
+/* Navbar.css */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00baff;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .button {
+    background-color: white;
+    color: #00baff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+.link{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+  

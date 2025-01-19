@@ -1,0 +1,8 @@
+/* src/components/MapComponent.module.css */
+.mapContainer {
+    height: 400px; /* Set height for the map */
+    width: 100%;
+    border: 2px solid #00baff;
+    border-radius: 8px;
+  }
+  

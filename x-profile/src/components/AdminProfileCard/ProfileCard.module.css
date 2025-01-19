@@ -1,0 +1,46 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    /* width: 250px; */
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .addButton, .editButton, .deleteButton {
+    padding: 8px 12px;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .addButton {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .editButton {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .deleteButton {
+    background-color: #f44336;
+    color: white;
+  }
+  
