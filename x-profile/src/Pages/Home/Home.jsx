@@ -16,7 +16,6 @@ const Home = () => {
   const handleProfile = (profile) => {
     setProfileOpen(true);
     setProfile(profile);
-    // console.log(profile);
   };
 
   const handleCardClick = (id) => {
@@ -46,25 +45,24 @@ const Home = () => {
   };
 
   const handleFilters = (e) => {
-    const selectedOption = e.target.value; // Get selected option
-    setOption(selectedOption); // Update the state with the selected option
+    const selectedOption = e.target.value; 
+    setOption(selectedOption); 
   
-    console.log("Selected Option:", selectedOption); // Debug log
+    console.log("Selected Option:", selectedOption); 
     
     const filtered = profiles.filter((profile) => {
-      console.log("Checking profile gender:", profile.gender); // Debug log
+      console.log("Checking profile gender:", profile.gender); 
       return profile.gender.toLowerCase() === selectedOption.toLowerCase();
     });
   
-    console.log("Filtered Profiles:", filtered); // Debug log
-    
-    setFilteredProfiles(filtered); // Update the filtered profiles state
+    console.log("Filtered Profiles:", filtered); 
+    setFilteredProfiles(filtered); 
   };
   
 
   const removeFilter = () => {
-    setOption(""); // Clear selected option
-    setFilteredProfiles(profiles); // Reset to all profiles
+    setOption(""); 
+    setFilteredProfiles(profiles); 
   };
 
   return (
